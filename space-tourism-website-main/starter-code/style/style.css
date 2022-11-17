@@ -20,8 +20,17 @@ ul {
 
 li {
     display: inline;
+    width: 25%;
 }
 
 ul li a {
     color: #fff;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+ul li a span {
+    font-weight: bold;
+    
 }

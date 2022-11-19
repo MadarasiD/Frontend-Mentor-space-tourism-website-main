@@ -22,11 +22,17 @@ body {
 	flex-direction: row;
 	align-items: center;
     justify-content: space-between;
-}
-    .header{
-	width: 100%;
+    width: 100%;
 	margin: 0 auto;
+    height: 140px;
 }
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 ul {
   margin: 0;
@@ -50,6 +56,9 @@ a {
 .logo {
 	margin: 0;
 	font-size: 1.45em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-nav {

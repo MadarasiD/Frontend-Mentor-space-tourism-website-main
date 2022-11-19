@@ -51,6 +51,7 @@ a {
 
 a {
 	text-decoration: none;
+    padding: 15px 0px 32px 0px;
 }
 
 
@@ -70,18 +71,23 @@ a {
     width: 40%;
     height: 100%;
     margin-top: 2.5%;
+    position: relative;
+    z-index: -1;
 }
 
 .main-nav {
 	margin-top: 5px;
-
+    backdrop-filter: blur(40px);
+    position: relative;
+    z-index: 100;
+    
 }
 .logo a,
 .main-nav a {
-	padding: 10px 15px;
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
+    z-index: 100;
 }
 
 .main-nav a {
@@ -92,17 +98,6 @@ a {
 .main-nav a:hover {
 	border-bottom: 1px solid #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

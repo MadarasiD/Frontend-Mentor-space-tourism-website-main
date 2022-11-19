@@ -61,6 +61,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 15px;
+	display: block;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #fff;
+    width: 40%;
+    height: 100%;
+    margin-top: 2.5%;
 }
 
 .main-nav {

@@ -80,7 +80,8 @@ a {
     backdrop-filter: blur(40px);
     position: relative;
     z-index: 100;
-    
+    width: 60%;
+    right: -50px;
 }
 .logo a,
 .main-nav a {

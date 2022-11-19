@@ -68,20 +68,20 @@ a {
 
 .border-bottom {
     border-bottom: 1px solid #fff;
-    width: 40%;
-    height: 100%;
+    width: 30%;
     margin-top: 2.5%;
-    position: relative;
-    z-index: -1;
+    position: absolute;
+    z-index: 2;
+    left: 20%;
 }
 
 .main-nav {
 	margin-top: 5px;
     backdrop-filter: blur(40px);
     position: relative;
-    z-index: 100;
-    width: 60%;
-    right: -50px;
+    z-index: 1;
+    width: 53%;
+    right: -3%;
 }
 .logo a,
 .main-nav a {

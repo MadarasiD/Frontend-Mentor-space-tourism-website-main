@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -45,16 +46,11 @@ ul {
 }
 
 
-h2,
-h3,
-a {
-	color: #ffffff;
-}
-
 a {
 	text-decoration: none;
     padding: 15px 0px 32px 0px;
     margin-left: 5rem;
+    color: #ffffff;
 }
 
 
@@ -121,16 +117,24 @@ a {
  .left-text h1{
     text-transform: uppercase;
     font-size: 120px;
-    font-family: 'Barlow', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
  }
 
  .left-text h4 {
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-family: 'Barlow', sans-serif;
+    font-size: 21px;
+    font-family: 'Abel', sans-serif;
     color: rgb(233, 233, 233);
+    font-weight: lighter;
+}
+
+.left-text .left-par {
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    color: rgb(167, 166, 177);
+    font-size: 18px;
 }
 
  .right-btn {

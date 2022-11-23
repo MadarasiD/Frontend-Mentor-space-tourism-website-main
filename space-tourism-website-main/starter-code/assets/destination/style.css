@@ -101,3 +101,55 @@ a {
 .main-nav a:hover {
 	border-bottom: 1px solid #fff;
 }
+
+
+
+
+.left-text {
+    color: #fff;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 11%;
+    position: absolute;
+ }
+
+ .left-text h1{
+    text-transform: uppercase;
+    font-size: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+ }
+
+ .left-text h4 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 21px;
+    font-family: 'Abel', sans-serif;
+    color: rgb(233, 233, 233);
+    font-weight: lighter;
+}
+
+.left-text .left-par {
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    color: rgb(167, 166, 177);
+    font-size: 18px;
+}
+
+ .right-btn {
+    position: absolute;
+    right: 12.5%;
+    margin-top: 275px;
+ }
+
+ .btn {
+    border: none;
+    padding: 100px 50px 100px 50px;
+    border-radius: 50%;
+    font-size: 50px;
+    cursor: pointer;
+ }
+
+ .btn:hover {
+    background: rgb(154, 150, 150);
+ }

@@ -104,10 +104,23 @@ a {
 .left-text {
     width: 50%;
     position: absolute;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    left: 0;
+    padding-left: 10%;
 }
 
 .left-text h3 {
-    color:#fff  
+    color:#fff;
+    height: 150px;
+    width: 100%;
+}
+
+.left-text img {
+    width: 60%;
+    height: 60%;
 }
 
 .right-text {

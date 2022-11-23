@@ -10,6 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .header,
@@ -121,7 +122,11 @@ ul {
 .left-text img {
     width: 60%;
     height: 60%;
-    margin-left: 10%;
+    padding-left: 10%;
+}
+
+.left-text span {
+    color: rgb(142, 136, 136);
 }
 
 .right-text {
@@ -129,6 +134,8 @@ ul {
     position: absolute;
     right: 0%;
     color: #fff;
+    padding-top: 27vh;
+    padding-left: 6.8%;
 }
 
 .right-text ul li {

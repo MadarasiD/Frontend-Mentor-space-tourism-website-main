@@ -106,7 +106,7 @@ a {
     position: absolute;
     display: block;
     left: 0;
-    margin-left: 15%;
+    margin-left: 14%;
 }
 
 .left-text h3 {
@@ -116,7 +116,9 @@ a {
 }
 
 .left-text img {
-    
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
 }
 
 .right-text {

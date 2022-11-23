@@ -148,6 +148,8 @@ ul {
     letter-spacing: 1px;
     line-height: 25px;
     font-size: 12px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #fff;
 }
 
 .right-text ul li {
@@ -166,4 +168,36 @@ ul {
 
 .desti-nav:hover {
     border-bottom: 1px solid #fff;
+}
+
+.last-text {
+    padding-top: 25px;
+    display: flex;
+    width: 100%;
+}
+
+.left-text .last-par {
+    width: 100%;
+}
+
+.last-text .left-par {
+    width: 50%;
+    position: absolute;
+}
+
+.last-par {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.last-text .right-par {
+    width: 50%;
+    margin-left: 30%;
+}
+
+.last-par .last-span {
+    font-size: 10px;
+    padding-bottom: 10px;
 }

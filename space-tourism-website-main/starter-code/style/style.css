@@ -155,7 +155,7 @@ a {
     background: rgb(154, 150, 150);
  }
 
- @media(max-width: 1400px) {
+ /*@media(max-width: 1400px) {
     .main-nav {
         padding-right: 50px;
         font-size: 0.75em;
@@ -167,4 +167,77 @@ a {
         padding-right: 50px;
         font-size: 0.55em;
     }
- }
+
+    .right-btn {
+        right: 10%;
+    }
+ }*/
+
+ @media(min-width: 1024px) {
+        .main-nav {
+            padding-right: 5%;
+            font-size: 9px;
+        }
+
+        a {
+            margin-left: 4rem;
+        }
+
+        .right-btn {
+            right: 7%;
+        }
+
+        .btn {
+            padding: 75px 37.5px 75px 37.5px;
+        }
+}
+
+@media(min-width: 320px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: 100%;
+        background: url(../assets/home/background-home-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .border-bottom{
+        display: none;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .left-text {
+        width: 400px;
+        
+    }
+
+    .left-text h4 {
+        font-size: 15px;
+        margin-top: -40%;
+        left: 10%;
+    }
+
+    .left-text .left-par {
+        width: 100%;
+    }
+
+    .right-btn {
+        padding: 175px 50px 0px 0px;
+
+    }
+
+    .btn {
+        padding: 50px 25px 50px 25px;
+        font-size: 40px;
+    }
+}

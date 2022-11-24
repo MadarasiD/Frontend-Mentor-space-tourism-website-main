@@ -6,7 +6,7 @@
 .container {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6;
-	min-height: 100vh;
+	height: 100vh;
     background-image: url(../crew/background-crew-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 	align-items: center;
     justify-content: space-between;
     width: 100%;
-	margin: 0 auto;
+	margin: 0 ;
     height: 140px;
 }
 
@@ -111,11 +111,15 @@ a {
 }
 
 .right-pic {
-    right: 0;
+    width: 49%;
     position: absolute;
+    right: 0;
+    
 }
 
+
 .right-pic img {
-    height: 60%;
-    width: 60%;
+    width: 66%;
+    height: 65%;
+    padding-left: 10%;
 }

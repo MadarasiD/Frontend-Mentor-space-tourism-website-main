@@ -11,6 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 .header,
@@ -100,4 +101,21 @@ a {
 
 .main-nav a:hover {
 	border-bottom: 1px solid #fff;
+}
+
+
+.left-text {
+    width: 50%;
+    position: absolute;
+    color: #fff;
+}
+
+.right-pic {
+    right: 0;
+    position: absolute;
+}
+
+.right-pic img {
+    height: 60%;
+    width: 60%;
 }

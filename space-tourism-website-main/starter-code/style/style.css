@@ -260,7 +260,13 @@ a {
     }
 
     .right-btn {
-        padding: 15% 10% 0 0;
+        padding: 17% 20% 0 0;
 
+    }
+
+    .btn {
+        padding: 50px 25px 50px 25px;
+        font-size: 25px;
+        font-weight: lighter;
     }
 }

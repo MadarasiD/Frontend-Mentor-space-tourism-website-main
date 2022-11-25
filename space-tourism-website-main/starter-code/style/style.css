@@ -217,8 +217,8 @@ a {
     }
 
     .left-text {
-        width: 400px;
-        
+        width: 75%;
+        text-align: center;
     }
 
     .left-text h1 {
@@ -242,6 +242,7 @@ a {
 
     .btn {
         padding: 80px 40px 80px 40px;
-        font-size: 40px;
+        font-size: 35px;
+        font-weight: lighter;
     }
 }
